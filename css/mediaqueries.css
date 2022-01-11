@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar-brand {
+  font-size:20px;
+}
+
+.navbar-brand img {
+  margin-top: 1px;
+  margin-bottom: 3px;  
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.center-div h1 {
+  font-size: 40px;
+}
+
+.oxygen {
+  top: 10%!important;
+  left: 20%!important;
+}
+
+.oxygen img{
+  height: 200px;
+  width: 200px; 
+}
+
+.form{
+  margin-left: 4vw;
+}
+
+}
+
+
+
+

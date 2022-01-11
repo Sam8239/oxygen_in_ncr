@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.oxygenncr.in/</loc>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+      <image:image>
+        <image:loc>https://www.oxygenncr.in/images/logo.png</image:loc>
+        <image:title>nothing</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://oxygenncr.in/</loc>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://oxygenncr.in/images/logo.png</image:loc>
+        <image:title>nothing</image:title>
+      </image:image>
+  </url>
+</urlset>

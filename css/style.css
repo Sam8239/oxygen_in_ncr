@@ -1,0 +1,231 @@
+* {
+  margin-right: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: rgb(46, 157, 201);
+  background-size: 600% 600%;
+  position: relative;
+}
+
+.elementor-background-overlay {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+/* Navbar Starts */
+.navbar {
+  letter-spacing: 2px;
+  line-height: 5px !important;
+  /* position: absolute; */
+}
+
+.navbar-brand {
+  padding: 0px 0px 0px 0px !important;
+  margin: 0px !important;
+  color: white !important;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.nav-item .active {
+  background-color: rgb(46, 157, 201);
+}
+
+.navbar-nav a {
+  font-size: 14px;
+  font-weight: 300;
+  color: white !important;
+  padding: 22.5px !important;
+}
+
+.navbar-nav a:hover {
+  background-color: rgb(46, 157, 201);
+}
+
+.navbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background: black;
+}
+/* Navbar Ends */
+
+
+
+/* Header Starts */
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.header-section {
+  height: 100%;
+  color: white;
+  padding-right: 0!important;
+  position: relative;
+}
+
+.header-buttons a,
+.product a {
+  border: 3px solid;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 10px 20px;
+  outline: none;
+  color: rgb(46, 157, 201);
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 18px;
+  background: rgb(46, 157, 201);
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+}
+
+.header-buttons a:hover {
+  background: rgb(46, 157, 201);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  border: 3px solid white;
+  color: white;
+}
+
+.center-div h1 {
+  font-size: 48px;
+}
+
+.center-div p {
+  font-size: 1.2rem;
+  padding: 20px 0 20px 0;
+  letter-spacing: 1px;
+}
+/* Header Ends */
+
+/* Product Starts */
+.product {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(214, 38, 38);
+  
+}
+
+.product a:hover {
+  background: rgb(46, 157, 201);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  border: 3px solid white;
+  color: white;
+}
+/* Product Ends */
+
+/* To Hide Scrollbar Starts */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* To Hide Scrollbar Ends */
+
+/* Contact Us Starts */
+.contactus {
+  width: 100%;
+  padding: 80px 0;
+  position: relative;
+  color: #fff;
+}
+
+
+
+.contactus:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.8;
+  background: rgb(36, 124, 158);
+  z-index: -1;
+}
+
+.form-button button {
+  border: 1px solid rgb(36, 124, 158);
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: rgb(36, 124, 158);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  background: transparent;
+}
+
+.form:hover .form-button button {
+  background: #fff;
+  color: rgb(36, 124, 158);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+  font-size: 0.85rem;
+  color: rgb(36, 124, 158) !important;
+  font-weight: 700;
+}
+
+.form {
+  margin-top: 3%;
+}
+
+p a {
+  text-decoration: none !important;
+  color: greenyellow !important;
+}
+
+p a:hover {
+  opacity: 0.8;
+}
+
+/* Contact Us Ends */
+
+/* Footer Starts */
+footer {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  margin: 0;
+  color: #fff;
+}
+
+footer a {
+  color: white;
+  text-decoration: none !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.753);
+}
+/* Footer Ends */
